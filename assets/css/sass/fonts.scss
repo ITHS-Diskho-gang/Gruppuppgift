@@ -25,7 +25,7 @@ html, .paragraph, p {
     family:$secondary-font;
     weight: normal;
   }
-	margin-top: 10px;
+	margin-top: 15px;
 	@include size(15, 20);
   color:black;
 
@@ -69,6 +69,14 @@ h2 {
    	weight: normal;
   }
 	@include size(20, 25);
+}
+
+h3{
+  font: {
+  font-family: $primary-font;
+  weight: bold;
+  }
+  @include size(19, 24);
 }
 
 /*------LINKS-----*/
