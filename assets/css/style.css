@@ -497,6 +497,49 @@ article#article.show .info .date-author {
   overflow: hidden !important;
 }
 
+.hero-about-pic {
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  width: calc(100% + 60px);
+  margin-left: -80px;
+  margin-top: -12px;
+}
+
+.hero-about-sec {
+  width: 100vw;
+  margin: 0px 0px;
+}
+
+.under-image-about {
+  display: flex;
+  flex-direction: row;
+}
+
+.under-image-about-1 {
+  margin: 2% 4%;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+.under-image-about-2 {
+  margin: 2% 4%;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+.under-image-about-3 {
+  margin: 2% 4%;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+.under-image-about-4 {
+  margin: 2% 4%;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
 /*Articles SASS file*/
 html {
   width: 100%;
@@ -547,36 +590,3 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-.hero-about-pic {
-  background-size: cover;
-  background-position: center;
-  width: calc(100% + 80px);
-  margin-left: -80px;
-}
-
-.hero-about-sec {
-  width: 100vw;
-}
-
-.under-image-about {
-  display: flex;
-  flex-direction: row;
-}
-
-.under-image-about-1 {
-  margin: 0 6%;
-}
-
-.under-image-about-2 {
-  margin: 0 6%;
-}
-
-.under-image-about-3 {
-  margin: 0 6%;
-}
-
-.under-image-about-4 {
-  margin: 0 6%;
-}
-
