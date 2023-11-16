@@ -203,6 +203,15 @@ article#article {
   overflow: hidden !important;
 }
 
+//class section
+.section-box{
+  padding:4% 0% 4% 0%;
+}
+
+//class for div containing content
+.section-content{
+  background-color: white;
+}
 #google-maps{
   display: flex;
   width: 100%;
