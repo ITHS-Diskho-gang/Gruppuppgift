@@ -217,27 +217,31 @@ article#article {
 }
 .under-image-about {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 .under-image-about-1 {
   margin: 2% 4%;
   font-family:$primary-font;
   font-size: 25px;
+  margin-left: 0;
 }
 .under-image-about-2 {
   margin: 2% 4%;
   font-family:$primary-font;
   font-size: 25px;
+  margin-left: 0;
 }
 .under-image-about-3 {
   margin: 2% 4%;
   font-family:$primary-font;
   font-size: 25px;
+  margin-left: 0;
 }
 .under-image-about-4 {
   margin: 2% 4%;
   font-family:$primary-font;
   font-size: 25px;
+  margin-left: 0;
 }
 
 
