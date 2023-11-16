@@ -680,4 +680,72 @@ body {
   width: 100%;
 }
 
+/*----Meet the team---*/
+.section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.big-boy-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.meet-image {
+  height: auto;
+  width: 100%;
+}
+
+.h2-meet-text {
+  margin-top: 10px;
+  padding: 0;
+  font-weight: 800;
+}
+
+.p-meet-text {
+  margin: 3px;
+}
+
+/* responsive functions for meet the team */
+@media (min-width: 1225px) {
+  .image-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 14.3%;
+  }
+}
+@media (max-width: 1224px) {
+  .image-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 1 1 30%;
+  }
+}
+@media (max-width: 600px) {
+  .image-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 1 1 45%;
+  }
+}
+@media (max-width: 400px) {
+  .image-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 1 1 90%;
+  }
+}
+@media (max-width: 900px) {
+  .section-wrapper {
+    gap: 15px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
