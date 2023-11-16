@@ -202,3 +202,61 @@ article#article {
   padding: 0px !important;
   overflow: hidden !important;
 }
+
+footer {
+  border-top: 1px solid $light-grey;
+  width: 100vw !important;
+  margin-left: -80px;
+}
+
+.footer-box {
+  display: flex;
+  height: 212px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#flex-column1 {
+width: 252px;
+height: 152px;
+padding-left: 90px;
+}
+
+  #flex-column1 h3 {
+    margin-bottom: 30px; 
+  }
+  #flex-column1 p {
+    margin-top: 0px;
+  }
+
+#flex-column2 {
+  width: 283px;
+  height: 152px;
+  }
+
+  #flex-column2 h3 {
+    margin-bottom: 30px; 
+  }
+
+  #flex-column2 p {
+    margin-top: 0px; 
+  }
+
+  #flex-column3 {
+    width: 440px;
+    height: 152px;
+    }
+
+    #flex-column3 h3 {
+      margin-bottom: 30px; 
+    }
+
+    #flex-column3 p {
+      margin-top: 0px; 
+    }
+
+    #flex-column4 {
+      width: 252px;
+      height: 152px;
+      }
+    
