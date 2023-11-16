@@ -202,3 +202,12 @@ article#article {
   padding: 0px !important;
   overflow: hidden !important;
 }
+
+.hero-contact-pic {
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  width: calc(100% + 180px);
+  margin-left: -80px;
+  margin-top: -12px;
+}

@@ -497,6 +497,15 @@ article#article.show .info .date-author {
   overflow: hidden !important;
 }
 
+.hero-contact-pic {
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  width: calc(100% + 180px);
+  margin-left: -80px;
+  margin-top: -12px;
+}
+
 /*Articles SASS file*/
 html {
   width: 100%;
