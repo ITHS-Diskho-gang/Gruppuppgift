@@ -752,5 +752,11 @@ body {
     gap: 15px;
   }
 }
+.divider {
+  border: solid #999999 1px;
+  width: calc(100% + 180px);
+  margin-left: -80px;
+  margin-bottom: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
