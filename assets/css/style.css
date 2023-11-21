@@ -189,8 +189,8 @@ a:hover, a:active, a:visited {
 #header nav#menu {
   display: block;
   width: 90%;
-  border-bottom: 1px solid #CCC;
-  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #636363;
+  border-top: 1px solid #636363;
   padding-left: 5%;
   padding-right: 5%;
   /*Breakpoint for when menu can't fit the screen anymore*/
@@ -227,7 +227,7 @@ a:hover, a:active, a:visited {
     display: block !important;
     text-align: left;
     padding: 1% 0;
-    border-top: 1px solid #CCC;
+    border-top: 1px solid #636363;
     margin: 0;
     margin-left: -5%;
     padding-left: 5%;
@@ -275,7 +275,7 @@ a:hover, a:active, a:visited {
   background-size: 15px auto;
   box-sizing: border-box;
   padding: 5px 5px 5px 30px;
-  border: 1px solid #CCC;
+  border: 1px solid #636363;
   margin: 12px 0;
   box-shadow: 0 0 0 transparent;
   font-family: "Playfair Display", serif;
@@ -370,7 +370,7 @@ article#article.article-1 {
   width: 32%;
 }
 article#article.article-2, article#article.article-3, article#article.article-4 {
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #636363;
   padding-top: 10px;
   margin-top: 0;
   height: 86px;
@@ -565,7 +565,7 @@ article#article.show .info .date-author {
 }
 
 footer {
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #636363;
   width: 100vw !important;
   margin-left: -80px;
   margin-top: 50px;
@@ -813,7 +813,7 @@ body {
   }
 }
 .divider {
-  border: solid 0.5px #CCC;
+  border: solid 0.5px #636363;
   width: calc(100% + 180px);
   margin-left: -80px;
   margin-bottom: 50px;
