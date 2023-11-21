@@ -636,6 +636,70 @@ footer {
   margin-top: -12px;
 }
 
+.contact-heading {
+  margin-top: 35px;
+  font-family: Playfair Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-box {
+  display: flex;
+  height: 108px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#contact-column1 {
+  width: 154px;
+  height: 108px;
+  padding-right: 135px;
+}
+
+#contact-column1 h3 {
+  margin-bottom: 30px;
+}
+
+#contact-column1 p {
+  margin-top: 0px;
+}
+
+#contact-column2 {
+  width: 249px;
+  height: 108px;
+  padding-right: 135px;
+}
+
+#contact-column2 h3 {
+  margin-bottom: 30px;
+}
+
+#contact-column2 p {
+  margin-top: 0px;
+}
+
+#contact-column3 {
+  width: 213px;
+  height: 108px;
+  padding-right: 135px;
+}
+
+#contact-column3 h3 {
+  margin-bottom: 30px;
+}
+
+#contact-column3 p {
+  margin-top: 0px;
+}
+
+#contact-icons {
+  width: 107px;
+  height: 30px;
+  padding-top: 60px;
+}
+
 /*Articles SASS file*/
 html {
   width: 100%;
