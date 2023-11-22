@@ -73,15 +73,25 @@
             <img id="contact-icons" src="images/Social media icons.png" alt="Social media icons">
           </div>
       </section>
-      <section id="google-maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2133.208418984364!2d11.99899077742595!3d57.678937042015754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff369d0835015%3A0xba46082e9c214f49!2sIT-H%C3%B6gskolan!5e0!3m2!1ssv!2sse!4v1700047699917!5m2!1ssv!2sse" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <section class="section-box">
+        <div class="section-content">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2133.208418984364!2d11.99899077742595!3d57.678937042015754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff369d0835015%3A0xba46082e9c214f49!2sIT-H%C3%B6gskolan!5e0!3m2!1ssv!2sse!4v1700047699917!5m2!1ssv!2sse" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="an interactive map with ITHS as preset location"></iframe>
+        </div>
       </section>
+
+      <div id="pictureModal" class="modal">
+        <div class="modal-content" id="modalContent">
+          <span class="close">&times;</span>
+          <iframe id="iframePicture" src="" frameborder="0"></iframe>
+        </div>
+      </div>
+
       <div class="divider"></div>
       <section class="big-boy-wrapper">
         <h2 class="h2-meet-text">Meet the team</h2>
         <section class="section-wrapper">
           <article class="image-text-wrapper">
-            <img class="meet-image" src="images/image-1.svg" alt="picture of a happy, bearded 30 year old man" />
+            <img class="meet-image" src="images/image-1.svg" alt="picture of a happy, bearded 30 year old man" id="test"/>
             <article class="text-wrapper">
               <h2 class="h2-meet-text">Marble Humble</h2>
               <p class="p-meet-text">CEO</p>
@@ -190,5 +200,6 @@
           </div>
         </section>
       </footer>
+      <script src="assets\js\modal.js"></script>
     </body>
 </html>
