@@ -119,6 +119,10 @@
           }
         }
 
+        input::placeholder {
+          color: $light-grey ;
+        }
+
         /*Breakpoint for when menu can't fit the screen anymore*/
         @media screen and (max-width: 1190px) {
           &.icon {
